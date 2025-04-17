@@ -2,8 +2,12 @@
 #include<stdlib.h>
 int main(){
     while(1){
-        int pre_score[7]={0,0,0,0,0,0,0};
-        int check[7]={0,0,0,0,0,0,0};
+        int pre_score[7]={0};
+        int check[7]={0};
+        // for(int i=0;i<7;i++){
+        //     printf("pre_score[%d] = %d\n", i, pre_score[i]);
+        //     printf("check[%d] = %d\n", i, check[i]);
+        // }
         int Previous_score = 0;
         int Final_score = 0;
         printf("Yellow sheet score:\n");
